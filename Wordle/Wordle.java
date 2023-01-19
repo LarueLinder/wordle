@@ -22,10 +22,7 @@ import java.util.Random;
  *
  * Fun facts: The original Wordle was developed by Josh Wardle. Wardle's wife
  * chose the official word list for the game.
- *
- * 500.112 Gateway Computing: Java Spring 2022
  *Larue Linder 
- *AE0263
  *10/6/22
  */
 public class Wordle {
@@ -248,11 +245,6 @@ public class Wordle {
     * SPEARS (the player's guess)
     *
     * SPe??s (the output printed by this function)
-    *
-    * Suggestion 1: Convert guess to upper case before doing anything else. This
-    * can help simplify later logic.
-    *
-    * Suggestion 2: Consider using String.indexOf
     *
     * @param word  The current word the player is trying to guess.
     * @param guess The guess that a player has entered.
